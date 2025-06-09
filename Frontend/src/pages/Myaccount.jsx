@@ -1,9 +1,5 @@
-
-
 const Myaccount = () => {
-  return (
-    <div>Myaccount</div>
-  )
-}
+  return <div>Myaccount</div>;
+};
 
-export default Myaccount
+export default Myaccount;
