@@ -1,9 +1,9 @@
 import Home from "./pages/Home";
-import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Cart from "./pages/Cart";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Myaccount from "./pages/Myaccount";
+import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Announcement from "./components/Announcement";
 function App() {
   const Layout = () => {
@@ -43,4 +43,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
